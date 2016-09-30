@@ -60,11 +60,11 @@
     <instance objName="obj_endpath" x="525" y="800" name="inst_9FF9D3E1" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cornerpath" x="925" y="800" name="inst_26AF0BB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree1top" x="546" y="849" name="inst_79D13C1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warptrigger" x="625" y="740" name="inst_EDDF5F89" locked="0" code="target_x=225&#xA;target_y=330&#xA;target_r=rm_playerHouse&#xA;" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="625" y="740" name="inst_EDDF5F89" locked="0" code="target_x=225&#xA;target_y=330&#xA;target_r=rm_playerHouse" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_House1Roof" x="885" y="638" name="inst_D7D4C67E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree1" x="438" y="741" name="inst_351EDBB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_playerHouse" x="625" y="749" name="inst_73927DE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_playerHouseRoof" x="673" y="620" name="inst_EF3CFA6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_playerHouse" x="625" y="750" name="inst_73927DE6" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_playerHouseRoof" x="673" y="620" name="inst_EF3CFA6F" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree1" x="396" y="865" name="inst_6278A0A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree1" x="548" y="904" name="inst_398906A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree1top" x="395" y="810" name="inst_5B2C57A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -316,6 +316,7 @@
     <instance objName="obj_cornerpath" x="898" y="254" name="inst_8B5A86E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cornerpath" x="809" y="266" name="inst_1E709004" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_tree3_top" x="2011" y="445" name="inst_C0197CBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="889" y="741" name="inst_08AD5DF7" locked="0" code="target_x=225&#xA;target_y=330&#xA;target_r=rm_playerHouse" scaleX="0.660000026226044" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
