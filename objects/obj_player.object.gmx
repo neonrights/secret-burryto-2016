@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar player_angle;
+            <string>globalvar newgame;
+newgame = true;
+globalvar player_angle;
 player_angle = 0;
 globalvar player_speed;
 player_speed = 1;
@@ -55,58 +57,64 @@ player_speed = 1;
             <string>var LR,UD;
 LR=0;
 UD=0;
-if(keyboard_check(ord('W'))||keyboard_check(ord('S'))||keyboard_check(ord('D')) //beginning of movement checker
-||keyboard_check(ord('A')) )
+
+
+
+if( (keyboard_check(ord('W'))||keyboard_check(ord('S'))||keyboard_check(ord('D')) //beginning of movement checker
+||keyboard_check(ord('A')) )&amp;&amp; (obj_fade.alpha == 0) )
 {
 
-if keyboard_check(ord('W')) {UD-=global.player_speed}
-if keyboard_check(ord('S')) {UD+=global.player_speed}
-if keyboard_check(ord('D')) {LR+=global.player_speed}
-if keyboard_check(ord('A')) {LR-=global.player_speed}
-if(UD!=0&amp;&amp;LR!=0) {
-    UD = UD/1.4142;
-    LR = LR/1.4142;
+    if keyboard_check(ord('W')) {UD-=global.player_speed}
+    if keyboard_check(ord('S')) {UD+=global.player_speed}
+    if keyboard_check(ord('D')) {LR+=global.player_speed}
+    if keyboard_check(ord('A')) {LR-=global.player_speed}
+    if(UD!=0&amp;&amp;LR!=0) {
+        UD = UD/1.4142;
+        LR = LR/1.4142;
     }
-if(place_free(x+LR,y+UD)) //wall hugger
-{
-    y+=UD;
-    x+=LR;
-}
-else
-{
-    if(place_free(x+LR,y)) {x+=LR}
-    if(place_free(x,y+UD)) {y+=UD}
-}
-if(LR&lt;0) //going left
+    
+    if(place_free(x+LR,y+UD)) //wall hugger
     {
-    global.player_angle=90;
-    if(UD&gt;0){global.player_angle+=45}
-    if(UD&lt;0){global.player_angle-=45}
+        y+=UD;
+        x+=LR;
     }
-if(LR&gt;0) //going right
+    else
     {
-    global.player_angle=-90;
-    if(UD&gt;0){global.player_angle-=45}
-    if(UD&lt;0){global.player_angle+=45}
+        if(place_free(x+LR,y)) {x+=LR}
+        if(place_free(x,y+UD)) {y+=UD}
     }
-if(LR=0)
-    {
-    if(UD&gt;0){global.player_angle=180}
-    if(UD&lt;0){global.player_angle=0}
-    }
-if(global.player_angle &lt;= 45 &amp;&amp; global.player_angle &gt;= -45) {sprite_index = spr_playerWalkUp} //facing up
+    
+    if(LR&lt;0) //going left
+        {
+        global.player_angle=90;
+        if(UD&gt;0){global.player_angle+=45}
+        if(UD&lt;0){global.player_angle-=45}
+        }
+    if(LR&gt;0) //going right
+        {
+        global.player_angle=-90;
+        if(UD&gt;0){global.player_angle-=45}
+        if(UD&lt;0){global.player_angle+=45}
+        }
+    if(LR=0)
+        {
+        if(UD&gt;0){global.player_angle=180}
+        if(UD&lt;0){global.player_angle=0}
+        }
+    if(global.player_angle &lt;= 45 &amp;&amp; global.player_angle &gt;= -45) {sprite_index = spr_playerWalkUp} //facing up
     if(global.player_angle &lt; -45 &amp;&amp; global.player_angle &gt;= -135) {sprite_index = spr_playerwalkRight}//facing right
     if(global.player_angle &lt;= 135 &amp;&amp; global.player_angle &gt; 45) {sprite_index = spr_playerwalkLeft} //facing left
     if(global.player_angle == 180) {sprite_index = spr_playerwalkDown} //facing down
-
+    
 } //end of movement checker
+    
+
 else{
     if(global.player_angle &lt; 45 &amp;&amp; global.player_angle &gt; -45) {sprite_index = spr_playerStandUp} //facing up
     if(global.player_angle &lt;= -45 &amp;&amp; global.player_angle &gt;= -135) {sprite_index = spr_playerStandRight}//facing right
     if(global.player_angle &lt;= 135 &amp;&amp; global.player_angle &gt;= 45) {sprite_index = spr_playerStandLeft} //facing left
     if(global.player_angle == 180) {sprite_index = spr_playerStandDown} //facing down
     }
-    
 </string>
           </argument>
         </arguments>

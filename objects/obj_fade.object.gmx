@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>fadeIn = true;//we're fading in when created
 alpha = 1;//the alpha is fully opaque at this point
-alarm[0] = room_speed * 0.02;//call alarm 0 and start fading in
+alarm[0] = room_speed * 0.01;//call alarm 0 and start fading in
 </string>
           </argument>
         </arguments>

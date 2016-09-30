@@ -50,7 +50,7 @@ alpha = 0;
           <argument>
             <kind>1</kind>
             <string>obj_fade.fadeIn = false;
-obj_fade.alarm[1] = room_speed*0.02;
+obj_fade.alarm[1] = room_speed*0.01;
 
 </string>
           </argument>
