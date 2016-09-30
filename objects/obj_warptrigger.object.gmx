@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fadeIn = false;
-alpha = 0;
+            <string>//fadeIn = false;
+//alpha = 0;
 </string>
           </argument>
         </arguments>
@@ -49,8 +49,13 @@ alpha = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_fade.fadeIn = false;
-obj_fade.alarm[1] = room_speed*0.01;
+            <string>obj_fade.fadeIn = false; //make sure that the screen isn't still fading in
+
+obj_warptrigger.target_x = target_x;
+obj_warptrigger.target_y = target_y; // These 3 commands take the instance-specific destinations for x,y,r
+obj_warptrigger.target_r = target_r; // And set them as the entire object's destination
+
+obj_fade.alarm[1] = room_speed*0.01; //call the fade out alarm
 
 </string>
           </argument>

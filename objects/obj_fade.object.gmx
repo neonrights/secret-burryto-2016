@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fadeIn = true;//we're fading in when created
-alpha = 1;//the alpha is fully opaque at this point
+            <string>fadeIn = true;//we're fading in when created (when a room is created)
+alpha = 1;//the alpha is fully opaque at this point, and the screen fades in
 alarm[0] = room_speed * 0.01;//call alarm 0 and start fading in
 </string>
           </argument>

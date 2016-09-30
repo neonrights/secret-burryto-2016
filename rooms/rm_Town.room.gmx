@@ -41,8 +41,8 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="-1" objName="obj_player" xview="0" yview="0" wview="600" hview="400" xport="0" yport="0" wport="1024" hport="768" hborder="300" vborder="200" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="obj_player" xview="0" yview="0" wview="600" hview="400" xport="0" yport="0" wport="1024" hport="768" hborder="300" vborder="200" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -60,7 +60,7 @@
     <instance objName="obj_endpath" x="525" y="800" name="inst_9FF9D3E1" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cornerpath" x="925" y="800" name="inst_26AF0BB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree1top" x="546" y="849" name="inst_79D13C1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warptrigger" x="625" y="740" name="inst_EDDF5F89" locked="0" code="target_x=225&#xA;target_y=330&#xA;target_r=rm_playerHouse" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="625" y="740" name="inst_townWarpTrigger1" locked="0" code="target_x=225&#xA;target_y=330&#xA;target_r=rm_playerHouse&#xA;" scaleX="0.300000011920929" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_House1Roof" x="885" y="638" name="inst_D7D4C67E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree1" x="438" y="741" name="inst_351EDBB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_playerHouse" x="625" y="750" name="inst_73927DE6" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -283,30 +283,30 @@
     <instance objName="obj_tree4" x="984" y="65" name="inst_698EAF2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree4" x="1081" y="118" name="inst_D6A93D47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_woodfenceup" x="705" y="204" name="inst_94961A55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="395" y="11" name="inst_0A0E86A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="483" y="11" name="inst_DDA92586" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="571" y="11" name="inst_A5AB5360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="307" y="11" name="inst_177E2D5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="131" y="11" name="inst_211F9B9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="219" y="11" name="inst_32D50EED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="87" y="11" name="inst_F635C826" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="43" name="inst_2155F156" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="107" name="inst_B77681E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="299" name="inst_AECD0227" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="235" name="inst_5CFA0370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="171" name="inst_DC210CAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="427" name="inst_C03C70F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="440" y="14" name="inst_0A0E86A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="528" y="14" name="inst_DDA92586" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="352" y="14" name="inst_A5AB5360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="573" y="14" name="inst_177E2D5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="176" y="14" name="inst_211F9B9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="264" y="14" name="inst_32D50EED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="88" y="14" name="inst_F635C826" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="46" name="inst_2155F156" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="110" name="inst_B77681E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="300" name="inst_AECD0227" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="237" name="inst_5CFA0370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="173" name="inst_DC210CAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="428" name="inst_C03C70F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_woodfenceup" x="705" y="108" name="inst_3BF6C34E" locked="0" code="depth = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="459" name="inst_2D0C3856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfenceup" x="43" y="362" name="inst_FB7005DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="87" y="491" name="inst_47356D2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="175" y="491" name="inst_DEAC4588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="263" y="491" name="inst_DC106B1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="352" y="491" name="inst_A855157D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="440" y="491" name="inst_65408044" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="528" y="491" name="inst_1CC55E28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="617" y="491" name="inst_6C1CDF13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_woodfencesideways" x="661" y="491" name="inst_B9B1B2C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="460" name="inst_2D0C3856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfenceup" x="44" y="364" name="inst_FB7005DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="88" y="492" name="inst_47356D2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="177" y="492" name="inst_DEAC4588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="265" y="492" name="inst_DC106B1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="353" y="492" name="inst_A855157D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="441" y="492" name="inst_65408044" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="529" y="492" name="inst_1CC55E28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="617" y="492" name="inst_6C1CDF13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_woodfencesideways" x="661" y="492" name="inst_B9B1B2C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_woodfenceup" x="705" y="172" name="inst_9ED0BB57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_woodfenceup" x="705" y="333" name="inst_62EA542A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_woodfenceup" x="705" y="397" name="inst_FCEA591E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -316,7 +316,9 @@
     <instance objName="obj_cornerpath" x="898" y="254" name="inst_8B5A86E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cornerpath" x="809" y="266" name="inst_1E709004" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_tree3_top" x="2011" y="445" name="inst_C0197CBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warptrigger" x="889" y="741" name="inst_08AD5DF7" locked="0" code="target_x=225&#xA;target_y=330&#xA;target_r=rm_playerHouse" scaleX="0.660000026226044" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="889" y="741" name="inst_townWarpTrigger2" locked="0" code="target_x=1000&#xA;target_y=370&#xA;target_r=rm_Town&#xA;" scaleX="0.660000026226044" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="829" y="96" name="inst_townWarpTriggerBarn2" locked="0" code="target_x = 661&#xA;target_y = 109&#xA;target_r = rm_Town&#xA;" scaleX="0.720000028610229" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="662" y="101" name="inst_townWarpTriggerBarn1" locked="0" code="target_x = 829&#xA;target_y = 106&#xA;target_r = rm_Town&#xA;" scaleX="0.600000023841858" scaleY="0.416666656732559" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
