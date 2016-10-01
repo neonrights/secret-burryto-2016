@@ -1,2 +1,3 @@
 obj_textBox.message += "##";
-obj_textBox.message += argument0;
+index = irandom(argument_count - 1);
+obj_textBox.message += argument[index];
