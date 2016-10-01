@@ -68,10 +68,24 @@ str = "";
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if( room != rm_playerHouse ) {
-    x = obj_player.x - 300;
-    y = obj_player.y - 200;
+            <string>if (x &lt; 0) {
+    x = 0;
 }
+
+if (y &lt; 0) {
+    y = 0;
+}
+
+/*if (obj_player.x &gt; 300) {
+    x = obj_player.x - 300;
+}
+
+if (obj_player.y &gt; 200) {
+    y = obj_player.y - 200;
+}*/
+
+x = view_xview[0];
+y = view_yview[0];
 </string>
           </argument>
         </arguments>
