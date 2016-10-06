@@ -3,7 +3,7 @@
   <spriteName>spr_bed</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>2</depth>
+  <depth>20</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -29,11 +29,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>"This is a bed. Your bed. You sleep here."</string>
+            <string>"This is a bed. Your bed. You can't sleep here.."</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>"This bed is not meant for you."</string>
           </argument>
           <argument>
             <kind>0</kind>
