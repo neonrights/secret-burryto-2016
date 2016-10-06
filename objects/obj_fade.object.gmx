@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>-100</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -59,12 +59,17 @@ alarm[0] = room_speed * 0.01;//call alarm 0 and start fading in
     }
     else
     {
-        xhold = obj_warptrigger.target_x;
-        yhold = obj_warptrigger.target_y;
-        room_goto(obj_warptrigger.target_r);
-        obj_player.x = xhold;
-        obj_player.y = yhold;
-
+        //xhold = global.target_x;
+        //yhold = global.target_y;
+        obj_player.room = global.target_r;
+        obj_player.x = global.target_x;
+        obj_player.y = global.target_y;
+        room_goto(global.target_r);
+        //obj_player.x = xhold;
+        //obj_player.y = yhold;
+        //obj_player.room = global.target_r;
+        fadeIn = true;
+        alarm[0] = room_speed * 0.01;
     }
 }
 </string>
@@ -106,7 +111,7 @@ alarm[0] = room_speed * 0.01;//call alarm 0 and start fading in
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="74">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -125,7 +130,7 @@ alarm[0] = room_speed * 0.01;//call alarm 0 and start fading in
             <kind>1</kind>
             <string>draw_set_colour(c_black);//primitives drawn below this line will be black
 draw_set_alpha(alpha);//start of alpha block
-draw_rectangle(0, 0, room_width, room_height, false);//draw a rectagle across screen
+draw_rectangle(0,0, 600, 400, false);//draw a rectagle across screen
 draw_set_alpha(1);//end of alpha block
 
 //draw the value of alpha to screen
