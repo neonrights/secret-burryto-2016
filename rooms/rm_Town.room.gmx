@@ -315,10 +315,11 @@
     <instance objName="obj_cornerpath" x="898" y="254" name="inst_8B5A86E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cornerpath" x="809" y="266" name="inst_1E709004" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_tree3_top" x="2011" y="445" name="inst_C0197CBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warptrigger" x="889" y="741" name="inst_townWarpTrigger2" locked="0" code="target_x=1000&#xA;target_y=370&#xA;target_r=rm_Town&#xA;" scaleX="0.660000026226044" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="889" y="741" name="inst_townWarpTrigger2" locked="0" code="target_x=1000&#xA;target_y=370&#xA;target_r=rm_Town" scaleX="0.660000026226044" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warptrigger" x="829" y="96" name="inst_townWarpTriggerBarn2" locked="0" code="target_x = 661&#xA;target_y = 109&#xA;target_r = rm_Town&#xA;" scaleX="0.720000028610229" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_warptrigger" x="662" y="101" name="inst_townWarpTriggerBarn1" locked="0" code="target_x = 829&#xA;target_y = 106&#xA;target_r = rm_Town&#xA;" scaleX="0.600000023841858" scaleY="0.416666656732559" colour="4294967295" rotation="0"/>
     <instance objName="obj_george" x="661" y="770" name="inst_58B121E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="1193" y="917" name="inst_3F27D2A9" locked="0" code="target_x=300&#xA;target_y=550&#xA;target_r=rm_mayor_1st&#xA;" scaleX="0.639999985694885" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

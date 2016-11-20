@@ -7,7 +7,7 @@
   <hsnap>25</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
@@ -74,7 +74,7 @@
     <instance objName="obj_wallborder" x="400" y="600" name="inst_43D06EE4" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_wallborder" x="50" y="600" name="inst_F359C8FE" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_roomentryway" x="300" y="609" name="inst_F8A55B94" locked="0" code="" scaleX="2.27272725105286" scaleY="2.66666674613953" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warptrigger" x="299" y="595" name="inst_11DFAA2E" locked="0" code="" scaleX="2" scaleY="0.680000007152557" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warptrigger" x="299" y="595" name="inst_11DFAA2E" locked="0" code="target_x=1192&#xA;target_y=940&#xA;target_r=rm_Town" scaleX="2" scaleY="0.680000007152557" colour="4294967295" rotation="0"/>
     <instance objName="obj_bookshelf" x="100" y="525" name="inst_6551CF3F" locked="0" code="" scaleX="3.75999999046326" scaleY="2.92000007629395" colour="4294967295" rotation="0"/>
     <instance objName="obj_bookshelf" x="500" y="525" name="inst_178E7A73" locked="0" code="" scaleX="3.75999999046326" scaleY="2.92000007629395" colour="4294967295" rotation="0"/>
     <instance objName="obj_bookshelf" x="100" y="325" name="inst_1ECF2F42" locked="0" code="" scaleX="3.75999999046326" scaleY="2.92000007629395" colour="4294967295" rotation="0"/>
